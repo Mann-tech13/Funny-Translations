@@ -7,6 +7,16 @@
   --color-gray-light: #D1D5DB;
 }
 
+@viewport{
+  zoom: 1.0;
+  width: 1.0;
+}
+
+@-ms-viewport{
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+
 h1{
   font-family: 'Lato', sans-serif;
   text-align: center;
