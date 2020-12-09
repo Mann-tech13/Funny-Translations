@@ -3,7 +3,7 @@
 h1{
   font-family: 'Noto Sans JP', sans-serif;
 }
-
+/* 
 @viewport{
   zoom: 1.0;
   width: 1.0;
@@ -12,10 +12,20 @@ h1{
 @-ms-viewport{
   width: extend-to-zoom;
   zoom: 1.0;
-}
+} */
 
 @media only screen and (max-width: 500px){
   .menu, .main, .right{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .main{
+    width: 80%;
+    padding: 0;
+  }
+  .right{
     width: 100%;
   }
 }
@@ -83,6 +93,8 @@ body{
   background-image: url("minion-background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+  width: 350px;
+  max-width: 100%;
 }
 
 h1{
