@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+h1{
+  font-family: 'Noto Sans JP', sans-serif;
+  color: var(--color-white);
+  font-style: italic;
+}
+
+:root{
+  --color-orange: #F59E0B;
+  --color-green: #1f970f;
+  --color-white: #FFFBEB;
+  --color-darkgreen: #206d16;
+}
+
+#txtInput{
+  display: block;
+  border: 2px solid;
+  border-color: var(--color-orange);
+  border-radius: 1rem;
+  width: 75%;
+  height: 10vh;
+  padding: 1rem 1rem;
+  margin: 2rem;
+}
+
+button{
+  margin-left: 3rem;
+  background-color: var(--color-green);
+  border-bottom-right-radius: 0.5rem;
+  color: var(--color-white);
+  padding: 0.5rem 1rem;
+  box-shadow: 0 12px 16px 0 rgb(72, 131, 77), 0 17px 50px 0 rgb(0, 0, 0);
+}
+
+button:hover{
+  background-color: var(--color-darkgreen)
+}
+
+#outputNotice{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: var(--color-orange);
+  font-size: larger;
+  font-style: italic;
+}
+
+#inputNotice{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: var(--color-white);
+  font-size: larger;
+  font-style: italic;
+}
+
+#output{
+  display: block;
+  height: 10vh;
+  border: 2px solid;
+  width: 50%;
+  border-radius: 0.5rem; 
+  margin: 2rem;
+  border-color: var(--color-orange);
+  padding: 0.5rem 1rem;
+}
+
+body{
+  background-image: url("yoda-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0px;
+}
+
+ul{
+  list-style-type: none;
+  text-align: right;
+  margin-top: 0rem;
+  padding: 0.3rem 0.7rem;
+  background-color: white;
+  margin-left: 74rem;
+}
+
+ul li{
+  padding-bottom: 1rem;
+}

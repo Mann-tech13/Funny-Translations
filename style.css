@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&display=swap');
+
+:root{
+  --color-gray-dark: #4B5563;
+  --color-white: white;
+  --color-darkBlue: #221f6b;
+  --color-gray-light: #D1D5DB;
+}
+
+h1{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  background-color: var(--color-gray-dark);
+  color: var(--color-white);
+  padding: 1.5rem 1rem;
+  font-style: italic;
+}
+
+body{
+  margin: 0px;
+  background-color: var(--color-gray-light);
+}
+
+.choiceTranslation{
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 30px;
+  font-style: italic;
+  color: var(--color-darkBlue)
+}
+
+.imgList{
+  width: 48%;
+  
+  border-radius: 10%;
+  margin-top: 3rem;
+  display: inline-block
+  
+}
+
+ul{
+  list-style-type: none;
+  margin-left: 15rem;
+  margin-top: 5rem;
+  
+}
