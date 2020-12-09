@@ -2,21 +2,36 @@
 
 h1{
   font-family: 'Noto Sans JP', sans-serif;
-  color: var(--color-white);
-  font-style: italic;
+  background-color: var(--color-darkgreen);
 }
 
+/* @media only screen and (max-width: 500px){
+  .menu, .main, .right{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .main{
+    width: 80%;
+    padding: 0;
+  }
+  .right{
+    width: 100%;
+  }
+} */
+
 :root{
-  --color-orange: #F59E0B;
+  --color-darkgreen: #F59E0B;
   --color-green: #1f970f;
-  --color-white: #FFFBEB;
-  --color-darkgreen: #206d16;
+  --color-black: black;
+  --color-darkgreen: #216918;
 }
 
 #txtInput{
   display: block;
   border: 2px solid;
-  border-color: var(--color-orange);
+  border-color: var(--color-darkgreen);
   border-radius: 1rem;
   width: 75%;
   height: 10vh;
@@ -28,7 +43,7 @@ button{
   margin-left: 3rem;
   background-color: var(--color-green);
   border-bottom-right-radius: 0.5rem;
-  color: var(--color-white);
+  color: var(--color-black);
   padding: 0.5rem 1rem;
   box-shadow: 0 12px 16px 0 rgb(72, 131, 77), 0 17px 50px 0 rgb(0, 0, 0);
 }
@@ -40,7 +55,8 @@ button:hover{
 #outputNotice{
   margin-top: 2rem;
   margin-left: 2rem;
-  color: var(--color-orange);
+  background-color: var(--color-darkgreen);
+  color: var(--color-black);
   font-size: larger;
   font-style: italic;
 }
@@ -48,7 +64,8 @@ button:hover{
 #inputNotice{
   margin-top: 2rem;
   margin-left: 2rem;
-  color: var(--color-white);
+  color: var(--color-black);
+  background-color: var(--color-darkgreen);
   font-size: larger;
   font-style: italic;
 }
@@ -60,26 +77,33 @@ button:hover{
   width: 50%;
   border-radius: 0.5rem; 
   margin: 2rem;
-  border-color: var(--color-orange);
+  border-color: var(--color-darkgreen);
   padding: 0.5rem 1rem;
+  color: var(--color-black);
 }
 
 body{
-  background-image: url("yoda-background.jpg");
+  /* background-image: url("minion-background.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  margin: 0px;
+  background-size: 100% 100%;
+  width: 550px;
+  max-width: 100%; */
+  background-color: rgb(173, 182, 170);
+
+}
+
+h1{
+  color: var(--color-black);
 }
 
 ul{
   list-style-type: none;
-  text-align: right;
   margin-top: 0rem;
-  padding: 0.3rem 0.7rem;
-  background-color: white;
-  margin-left: 74rem;
+  display: inline-block;
 }
 
 ul li{
   padding-bottom: 1rem;
+  padding-right: 1rem;
+  display: inline-block;
 }

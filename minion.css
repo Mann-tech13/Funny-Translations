@@ -2,19 +2,10 @@
 
 h1{
   font-family: 'Noto Sans JP', sans-serif;
-}
-/* 
-@viewport{
-  zoom: 1.0;
-  width: 1.0;
+  background-color: var(--color-orange);
 }
 
-@-ms-viewport{
-  width: extend-to-zoom;
-  zoom: 1.0;
-} */
-
-@media only screen and (max-width: 500px){
+/* @media only screen and (max-width: 500px){
   .menu, .main, .right{
     width: 100%;
   }
@@ -28,12 +19,12 @@ h1{
   .right{
     width: 100%;
   }
-}
+} */
 
 :root{
   --color-orange: #F59E0B;
   --color-green: #1f970f;
-  --color-white: #FFFBEB;
+  --color-black: black;
   --color-darkgreen: #206d16;
 }
 
@@ -52,7 +43,7 @@ button{
   margin-left: 3rem;
   background-color: var(--color-green);
   border-bottom-right-radius: 0.5rem;
-  color: var(--color-white);
+  color: var(--color-black);
   padding: 0.5rem 1rem;
   box-shadow: 0 12px 16px 0 rgb(72, 131, 77), 0 17px 50px 0 rgb(0, 0, 0);
 }
@@ -64,7 +55,8 @@ button:hover{
 #outputNotice{
   margin-top: 2rem;
   margin-left: 2rem;
-  color: var(--color-orange);
+  background-color: var(--color-orange);
+  color: var(--color-black);
   font-size: larger;
   font-style: italic;
 }
@@ -72,7 +64,8 @@ button:hover{
 #inputNotice{
   margin-top: 2rem;
   margin-left: 2rem;
-  color: var(--color-white);
+  color: var(--color-black);
+  background-color: var(--color-orange);
   font-size: larger;
   font-style: italic;
 }
@@ -86,31 +79,31 @@ button:hover{
   margin: 2rem;
   border-color: var(--color-orange);
   padding: 0.5rem 1rem;
-  color: var(--color-white);
+  color: var(--color-black);
 }
 
 body{
-  background-image: url("minion-background.jpg");
+  /* background-image: url("minion-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  width: 350px;
-  max-width: 100%;
+  width: 550px;
+  max-width: 100%; */
+  background-color: rgb(182, 170, 170);
 
 }
 
 h1{
-  color: var(--color-white);
+  color: var(--color-black);
 }
 
 ul{
   list-style-type: none;
-  text-align: right;
   margin-top: 0rem;
-  padding: 0.3rem 0.7rem;
-  background-color: white;
-  margin-left: 74rem;
+  display: inline-block;
 }
 
 ul li{
   padding-bottom: 1rem;
+  padding-right: 1rem;
+  display: inline-block;
 }
