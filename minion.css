@@ -4,6 +4,16 @@ h1{
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+@viewport{
+  zoom: 1.0;
+  width: 1.0;
+}
+
+@-ms-viewport{
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+
 :root{
   --color-orange: #F59E0B;
   --color-green: #1f970f;
